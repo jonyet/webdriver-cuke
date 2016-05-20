@@ -1,0 +1,19 @@
+mox {
+  "name": "webdriver-cuke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "step-definitions.js",
+  "dependencies": {
+    "chai": "3.5.0",
+    "cheerio": "^0.20.0",
+    "webdriverio": "^4.0.7"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "~0.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jterry",
+  "license": "MIT"
+}
