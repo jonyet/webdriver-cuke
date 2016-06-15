@@ -1,4 +1,4 @@
-mox {
+{
   "name": "webdriver-cuke",
   "version": "1.0.0",
   "description": "",
@@ -6,6 +6,7 @@ mox {
   "dependencies": {
     "chai": "3.5.0",
     "cheerio": "^0.20.0",
+    "selenium-standalone": "^5.1.1",
     "webdriverio": "^4.0.7"
   },
   "devDependencies": {
