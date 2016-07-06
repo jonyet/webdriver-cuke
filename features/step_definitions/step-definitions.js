@@ -8,7 +8,7 @@ module.exports = function(){
 
     this.When(/^I search for "([^"]*)"$/, function(searchText) {
       browser.click('#twotabsearchtextbox');
-      browser.keys('qa testing');
+      browser.keys(searchText);
       browser.click('#nav-search > form > div.nav-right > div > input');
     });
 
