@@ -16,7 +16,8 @@ exports.config = {
         './features/*.feature'
     ],
     exclude: [
-      //
+      './features/amazonOther.feature',
+      './features/amazonSearch.feature'
     ],
 
     /**

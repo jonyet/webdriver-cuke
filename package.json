@@ -11,6 +11,7 @@
     "webdriverio": "^4.0.7"
   },
   "devDependencies": {
+    "dotenv": "^2.0.0",
     "wdio-cucumber-framework": "~0.0.6"
   },
   "scripts": {
